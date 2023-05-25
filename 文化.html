@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>我的文化之旅</title>
+  <style>
+    /* 页面布局样式 */
+    body {
+      background-color: #f6f6f6;
+    }
+
+    h1 {
+      margin: 2rem 0;
+      text-align: center;
+      font-size: 4rem;
+      color: #444;
+      text-shadow: 2px 2px 2px #ddd;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    li {
+      margin: 2rem;
+      max-width: 400px;
+      border: 2px solid #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .image-container {
+      position: relative;
+    }
+
+    .image-container img {
+      min-width: 100%;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .image-container::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+      opacity: 0.5;
+    }
+
+    h2 {
+      z-index: 2;
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      color: #fff;
+      font-size: 2.5rem;
+      text-shadow: 2px 2px 2px #000;
+    }
+
+    p {
+      margin: 1rem 2rem;
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    button {
+      margin-top: 1rem;
+      padding: 0.8rem;
+      font-size: 1.2rem;
+      background-color: #c8dafc;
+      color: #333;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #a8c3f4;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>中国传统文化</h1>
+  <ul>
+    <li>
+      <div class="image-container">
+        <img src="8.jpg" alt="书法">
+        <h2>书法</h2>
+      </div>
+      <p>公元353年4月（晋永和九年三月初三日），时任会稽内史的王羲之与友人谢安、孙绰等四十一人在会稽山阴的兰亭雅集，饮酒赋诗。王羲之将这些诗赋辑成一集，并作序一篇，记述流觞曲水一事，并抒写由此而引发的内心感慨。这篇序文就是《兰亭集序》。并挥写了一篇《兰亭集序》。唐太宗对他推崇备至，曾亲撰《晋书》中的《王羲之传论》，推颂为“尽善尽美”。还将临摹本分赐贵戚近臣，并以真迹殉葬。</p>
+      <button>查看更多</button>
+    </li>
+    <li>
+      <div class="image-container">
+        <img src="9.jpg" alt="美味的食物">
+        <h2>美食文化</h2>
+      </div>
+      <p>中国菜的选材非常丰富，有一句俗语称：“山中走兽云中燕，陆地牛羊海底鲜。”几乎所有能吃的东西，都可以做为中国菜的食材。但食材的选择关系到菜品的质量。
+中国菜中名菜常选择名贵的食材，如燕窝、鱼翅、熊掌、鹿尾、虎骨、猴脑等。其中部分食材取自保护动物，所以某些名菜因取材困难而无法烹制，但也有烹饪家使用替代品进行尝试。</p>
+      <button>查看更多</button>
+    </li>
+    <li>
+      <div class="image-container">
+        <img src="10.jpg" alt="有趣的手工艺品">
+        <h2>剪纸</h2>
+      </div>
+      <p>2006年5月20日，剪纸艺术遗产经国务院批准列入第一批国家级非物质文化遗产名录。 [2] 2009年9月28日至10月2日举行的联合国教科文组织保护非物质文化遗产政府间委员会第四次会议上，中国申报的中国剪纸项目入选“人类非物质文化遗产代表作名录” [3] [19] 。</p>
+      <button>查看更多</button>
+    </li>
+  </ul>
+</body>
+
+</html>
